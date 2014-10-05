@@ -1,0 +1,593 @@
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+//  Base styles            
+
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+.viz-article {
+	overflow: hidden;
+	margin: 0 auto;
+	height: 100%;
+	color: $txt-black;
+	font-size: 15px;
+	font-family: $sans;
+	text-rendering: optimizeLegibility;
+}
+
+.viz-container {
+	position: relative;
+}
+
+.viz-detail {
+    color: $med-gray;
+    text-transform: uppercase;
+	letter-spacing: .5px;
+    font-weight: 300;
+    font-size: 11px;
+	line-height: 80%;
+}
+
+.viz-overline {
+	margin: 0 0 5px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid $light-gray;
+	color: $med-gray;
+	font-weight: 300;
+	font-size: 11px;
+}
+
+.viz-title {
+	@include inline-block;
+	margin: 0;
+	font-weight: 600;
+	font-size: 42px;
+	font-family: $slab;
+	line-height: 90%;
+	@media (min-width: $small) {
+		font-size: 42px;
+	}
+}
+
+.viz-underline {
+	margin-top: 0;
+	color: $txt-black;
+	font-weight: 300;
+	line-height: 140%;
+}
+
+.viz-byline {
+	letter-spacing: .5px;
+	line-height: 90%;
+}
+
+.viz-content-block {
+	@include pie-clearfix;
+	margin: 0 0 40px;
+}
+
+.viz-content-header {
+	margin: 0 0 30px;
+}
+
+.viz-overline-wrapper {
+	position: relative;
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid $txt-black;
+}
+
+.viz-subhed {
+	margin: 0 0 10px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid $light-gray;
+	font-weight: 500;
+	font-size: 13px;
+}
+
+.viz-subhed-select {
+	padding-bottom: 7px;
+}
+
+.viz-header-wrapper {
+	@include pie-clearfix;
+	position: relative;
+}
+
+.viz-footer {
+	padding-top: 10px;
+	border-top: 7px solid $txt-black;
+}
+
+.viz-source {
+	margin: 0;
+	font-size: 12px;
+}
+
+
+// QUIZ
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+.viz-quiz-container {
+	font-size: 24px;
+}
+
+.viz-questions {
+	margin: 0;
+	padding: 0;
+}
+
+.viz-question {
+	position: relative;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	border-top: 1px solid $txt-black;
+	list-style-type: none;
+}
+
+.viz-question-number {
+	position: absolute;
+	left: 50%;
+	margin: 7px 0 0 -11px;
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-family: $xcondensed;
+	line-height: 65%;
+	@media (min-width: 540px) {
+		left: auto;
+		margin: 0;
+		letter-spacing: 3px;
+		font-size: 90px;
+	}
+}
+
+.viz-img-wrap {
+	position: relative;
+}
+
+.viz-img-wrap:after {
+	position: absolute;
+	top: 95px;
+	left: 50%;
+	margin-left: -12px;
+	width: 0;
+	height: 0;
+	border: solid transparent;
+	border-width: 12px;
+	border-top-color: red;
+	content: " ";
+	pointer-events: none;
+}
+
+.viz-logo {
+	margin: 0 auto 25px;
+	width: 105px;
+	height: 95px;
+	background-image: url('../img/icons_sheet.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	pointer-events: none;
+}
+
+.viz-logo-connector {
+	position: absolute;
+	top: 75px;
+	left: 25%;
+	z-index: 0;
+	margin: 0;
+	width: 50%;
+	height: 3px;
+	background-color: $txt-black;
+}
+
+.viz-down-arrow {
+	position: absolute;
+	top: 75px;
+	left: 50%;
+	margin-left: -10px;
+}
+
+.viz-logo-name {
+	display: none;
+	margin: 25px -5px 0 0;
+}
+
+.viz-comparison {
+	position: relative;
+	display: inline-block;
+	margin: 0 0 55px;
+	width: 48%;
+	background-position: -210px;
+	text-align: center;
+}
+
+.viz-comparison-1 {
+	float: left;
+	background-position: -210px;
+}
+
+.viz-comparison-2 {
+	float: right;
+	background-position: -210px;
+}
+
+.viz-letter {
+	display: inline-block;
+	margin: 0 3px;
+	margin-bottom: -5px;
+	width: 20px;
+	height: 33px;
+	background-image: url('../img/lodash.png');
+	background-size: 20px;
+	background-repeat: no-repeat;
+	line-height: 130%;
+}
+
+.viz-takeaway-letter {
+	background-image: url('../img/lodash_takeaway.png');
+	text-align: center;
+}
+
+.viz-top-takeaway {
+	width: 27px;
+	height: 45px;
+	padding-top: 4px;
+	background-size: 27px;
+	font-weight: 500;
+	margin: 0 2px 19px 0;
+}
+
+.viz-comparison-answer-wrap {
+	margin: 0 auto 10px;
+	text-align: center;
+}
+
+.viz-comparison-answer {
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+.viz-comparison-answer-filled {
+	margin: 10px 0 10px;
+	color: $med-gray;
+	letter-spacing: 14px;
+	font-size: 16px;
+}
+
+.viz-answer-clue {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-size: 24px;
+	font-family: $condensed;
+	line-height: 80%;
+}
+
+
+// FORM GAH
+
+.viz-form {
+	position: relative;
+}
+
+.viz-form-answered {
+	pointer-events: none;
+}
+
+.viz-final-form {
+	display: none;
+	letter-spacing: 0;
+}
+
+.viz-input {
+	@include input-default;
+	position: relative;
+	z-index: 0;
+	padding: 5px;
+	width: 81px;
+	height: 29px;
+	border: 1px solid $med-gray;
+	background-color: white;
+	vertical-align: middle;
+	font-weight: 300;
+	font-size: 14px;
+	font-family: $sans;
+	@media (min-width: $small) {
+		width: 130px;
+	}
+}
+
+.viz-submit {
+	@include trans(0.2s, background-color, ease-in-out);
+	@include input-default;
+	position: relative;
+	z-index: 1;
+	margin-left: -10px;
+	padding: 0;
+	width: 30px;
+	height: 29px;
+	background-color: $txt-black;
+	color: white;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.viz-correct {
+	background-color: #4cc0ad;
+}
+
+.viz-incorrect {
+	background-color: rgb(237,28,36);
+}
+
+.viz-popup {
+	@include transition(0.3s opacity ease-in-out, 0.3s top ease-in-out);
+	@include border-radius(15px);
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -37.5px;
+	padding: 5px 10px;
+	border: 1px solid $light-gray;
+	text-transform: uppercase;
+	font-size: 10px;
+	opacity: 0;
+}
+
+.viz-popup-visible {
+	top: 36px;
+	opacity: 1;
+}
+
+.viz-popup-text {
+	margin: 0;
+	color: $txt-black;
+}
+
+.viz-popup:after, .viz-popup:before {
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: solid transparent;
+	content: " ";
+	pointer-events: none;
+}
+
+.viz-popup:after {
+	margin-left: -4px;
+	border-width: 4px;
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+}
+.viz-popup:before {
+	margin-left: -5px;
+	border-width: 5px;
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: $light-gray;
+}
+
+
+
+
+// FINAL ANSWER
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+.viz-recommender-title {
+	margin: 0 0 20px;
+	padding: 0 0 5px;
+	border-bottom: 1px solid $txt-black;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: 500;
+	font-size: 22px;
+	font-family: $condensed;
+}
+
+.viz-final-answer-wrap {
+	@include pie-clearfix;
+	position: relative;
+	// padding-top: 20px;
+}
+
+.viz-headshot-wrap {
+	display: table;
+	margin: 0 0 15px;
+	@media (min-width: $small) {
+		margin-bottom: 10px;
+	}
+}
+
+.viz-headshot {
+	float: left;
+	margin-right: 20px;
+	width: 100px;
+	@media (min-width: 500px) {
+		width: 65px;
+	}
+}
+
+.viz-pullquote {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 13px;
+	@media (min-width: 400px) {
+		font-size: 16px;
+	}
+}
+
+.viz-answer {
+	margin-bottom: 5px;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 16px;
+}
+
+.viz-final-answer {
+	margin: 0 0 3px;
+	text-align: center;
+	@media (min-width: $small) {
+		margin: 0 0 3px 85px;
+		text-align: left;
+	}
+}
+
+// .viz-letter-labels {
+// 	margin: 0 0 0 21px;
+// 	text-align: center;
+// 	letter-spacing: 20.5px;
+// 	font-size: 16px;
+// 	font-family: $condensed;
+// 	@media (min-width: $small) {
+// 		margin: 0 0 20px 94px;
+// 		text-align: left;
+// 	}
+// }
+
+.viz-giveup {
+	margin-bottom: 20px;
+	text-align: center;
+	@media (min-width: $small) {
+		position: absolute;
+		bottom: 20px;
+		left: 8px;
+		margin-bottom: 0px;
+		width: 47px;
+	}
+}
+
+.viz-giveup-button {
+	margin: 0 0 5px;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: $med-gray;
+	&:hover {
+		background-color: $txt-black;
+	}
+}
+
+.viz-giveup-text {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+
+
+
+// Takeaway numbers
+
+.viz-takeaway-1 {
+	background-image: url('../img/justbox_1.png');
+}
+.viz-takeaway-2 {
+	background-image: url('../img/justbox_2.png');
+}
+.viz-takeaway-3 {
+	background-image: url('../img/justbox_3.png');
+}
+.viz-takeaway-4 {
+	background-image: url('../img/justbox_4.png');
+}
+.viz-takeaway-5 {
+	background-image: url('../img/justbox_5.png');
+}
+.viz-takeaway-6 {
+	background-image: url('../img/justbox_6.png');
+}
+.viz-takeaway-7 {
+	background-image: url('../img/justbox_7.png');
+}
+.viz-takeaway-8 {
+	background-image: url('../img/justbox_8.png');
+}
+.viz-takeaway-9 {
+	background-image: url('../img/justbox_9.png');
+}
+
+
+
+// Logo colors
+
+.viz-comp-1 {
+	background-color: $p-bground-1;
+}
+
+.viz-comp-2 {
+	background-color: $p-bground-2;
+}
+
+.viz-comp-3 {
+	background-color: $p-bground-3;
+}
+
+.viz-comp-4 {
+	background-color: $p-bground-4;
+}
+
+.viz-comp-5 {
+	background-color: $p-bground-5;
+}
+
+.viz-comp-6 {
+	background-color: $p-bground-6;
+}
+
+.viz-comp-7 {
+	background-color: $p-bground-7;
+}
+
+.viz-comp-8 {
+	background-color: $p-bground-8;
+}
+
+.viz-comp-9 {
+	background-color: $p-bground-9;
+}
+
+.viz-arrow-comp-1:after {
+	border-top-color: $p-bground-1;
+}
+
+.viz-arrow-comp-2:after {
+	border-top-color: $p-bground-2;
+}
+
+.viz-arrow-comp-3:after {
+	border-top-color: $p-bground-3;
+}
+
+.viz-arrow-comp-4:after {
+	border-top-color: $p-bground-4;
+}
+
+.viz-arrow-comp-5:after {
+	border-top-color: $p-bground-5;
+}
+
+.viz-arrow-comp-6:after {
+	border-top-color: $p-bground-6;
+}
+
+.viz-arrow-comp-7:after {
+	border-top-color: $p-bground-7;
+}
+
+.viz-arrow-comp-8:after {
+	border-top-color: $p-bground-8;
+}
+
+.viz-arrow-comp-9:after {
+	border-top-color: $p-bground-9;
+}
+
+
+
+
+
+

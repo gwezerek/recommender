@@ -1,0 +1,417 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<title>Recommender</title>
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/widget.css">
+	<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+	<script src="https://cdn.rawgit.com/nprapps/pym.js/master/src/pym.js"></script>
+</head>
+
+<body>
+	<article class="viz-article">
+		<div class="viz-container viz-quiz-container">
+			<!-- BRACKET MOD -->
+			<section class="viz-content-block">
+				<div class="viz-final-answer-wrap">
+					<p class="viz-answer viz-final-answer" data-answer="Omm Writer">
+						<span class="viz-letter viz-takeaway-letter viz-top-takeaway viz-takeaway-1">&nbsp;</span>
+						<span class="viz-letter viz-takeaway-letter viz-top-takeaway viz-takeaway-2">&nbsp;</span>
+						<span class="viz-letter viz-takeaway-letter viz-top-takeaway viz-takeaway-3">&nbsp;</span>
+						<span class="viz-letter viz-takeaway-letter viz-top-takeaway viz-takeaway-4">&nbsp;</span>
+						<span class="viz-letter viz-takeaway-letter viz-top-takeaway viz-takeaway-5">&nbsp;</span>
+						<span class="viz-letter viz-takeaway-letter viz-top-takeaway viz-takeaway-6">&nbsp;</span>
+						<span class="viz-letter viz-takeaway-letter viz-top-takeaway viz-takeaway-7">&nbsp;</span>
+						<span class="viz-letter viz-takeaway-letter viz-top-takeaway viz-takeaway-8">&nbsp;</span>
+						<span class="viz-letter viz-takeaway-letter viz-top-takeaway viz-takeaway-9">&nbsp;</span>
+					</p>
+					<div class="viz-giveup">
+						<button class="viz-submit viz-giveup-button"><i class="fa fa-plus"></i></button>
+						<p class='viz-giveup-text'>Reveal answers</p>
+					</div>
+				</div>
+				<ul class="viz-questions">
+					<li class="viz-question">
+						<p class="viz-question-number">01</p>
+						<hr class="viz-logo-connector">
+						<img class="viz-down-arrow" src="img/down_arrow.png" LOCAL>
+						<div class="viz-comparison viz-comparison-1">
+							<div class="viz-img-wrap viz-arrow-comp-1">
+								<div class="viz-logo viz-comp-1"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Lufthansa" placeholder="Letters: 9" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison viz-comparison-2">
+							<div class="viz-img-wrap viz-arrow-comp-1">
+								<div class="viz-logo viz-comp-1"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Polo" placeholder="Letters: 4" data-validation-msg="Try again!" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison-answer-wrap">
+							<p class="viz-answer-clue">Sci-Fi Antihero</p>
+							<p class="viz-answer viz-comparison-answer" data-takeaway="5"><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span>&emsp;<span class="viz-letter">&nbsp;</span><span class="viz-letter viz-takeaway-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span></p>
+							<form class="viz-form viz-final-form">
+								<input class="viz-input" name="viz-guess" data-answer="Han Solo" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+					</li>
+					<li class="viz-question">
+						<p class="viz-question-number">02</p>
+						<hr class="viz-logo-connector">
+						<img class="viz-down-arrow" src="img/down_arrow.png" LOCAL>
+						<div class="viz-comparison viz-comparison-1">
+							<div class="viz-img-wrap viz-arrow-comp-2">
+								<div class="viz-logo viz-comp-2"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Paramount" placeholder="Letters: 9" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison viz-comparison-2">
+							<div class="viz-img-wrap viz-arrow-comp-2">
+								<div class="viz-logo viz-comp-2"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Guinness" placeholder="Letters: 8" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison-answer-wrap">
+							<p class="viz-answer-clue">Punk Rock &ldquo;Family&rdquo;</p>
+							<p class="viz-answer viz-comparison-answer" data-takeaway="2"><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter viz-takeaway-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span></p>
+							<form class="viz-form viz-final-form">
+								<input class="viz-input" name="viz-guess" data-answer="Ramones" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+					</li>
+					<li class="viz-question">
+						<p class="viz-question-number">03</p>
+						<hr class="viz-logo-connector">
+						<img class="viz-down-arrow" src="img/down_arrow.png" LOCAL>
+						<div viz-comp-1v class="viz-comparison viz-comparison-1" viz-arrow-comp-1>
+							<div class="viz-img-wrap viz-arrow-comp-3">
+								<div class="viz-logo viz-comp-3"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="MetLife" placeholder="Letters: 8" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison viz-comparison-2">
+							<div class="viz-img-wrap viz-arrow-comp-3">
+								<div class="viz-logo viz-comp-3"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Chanel" placeholder="Letters: 6" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison-answer-wrap">
+							<p class="viz-answer-clue">Global Warming Contributor</p>
+							<p class="viz-answer viz-comparison-answer" data-takeaway="0"><span class="viz-letter viz-takeaway-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span></p>
+							<form class="viz-form viz-final-form">
+								<input class="viz-input" name="viz-guess" data-answer="Methane" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+					</li>
+					<li class="viz-question">
+						<p class="viz-question-number">04</p>
+						<hr class="viz-logo-connector">
+						<img class="viz-down-arrow" src="img/down_arrow.png" LOCAL>
+						<div class="viz-comparison viz-comparison-1">
+							<div class="viz-img-wrap viz-arrow-comp-4">
+								<div class="viz-logo viz-comp-4"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Acura" placeholder="Letters: 5" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison viz-comparison-2">
+							<div class="viz-img-wrap viz-arrow-comp-4">
+								<div class="viz-logo viz-comp-4"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Safeway" placeholder="Letters: 7" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison-answer-wrap">
+							<p class="viz-answer-clue">Rule Enforced by Parents</p>
+							<p class="viz-answer viz-comparison-answer" data-takeaway="5"><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter viz-takeaway-letter">&nbsp;</span></p>
+							<form class="viz-form viz-final-form">
+								<input class="viz-input" name="viz-guess" data-answer="Curfew" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+					</li>
+					<li class="viz-question">
+						<p class="viz-question-number">05</p>
+						<hr class="viz-logo-connector">
+						<img class="viz-down-arrow" src="img/down_arrow.png" LOCAL>
+						<div class="viz-comparison viz-comparison-1">
+							<div class="viz-img-wrap viz-arrow-comp-5">
+								<div class="viz-logo viz-comp-5"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Bacardi" placeholder="Letters: 7" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison viz-comparison-2">
+							<div class="viz-img-wrap viz-arrow-comp-5">
+								<div class="viz-logo viz-comp-5"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="McDonald's" placeholder="Letters: 9" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison-answer-wrap">
+							<p class="viz-answer-clue">Religious Title</p>
+							<p class="viz-answer viz-comparison-answer" data-takeaway="2"><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter viz-takeaway-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span></p>
+							<form class="viz-form viz-final-form">
+								<input class="viz-input" name="viz-guess" data-answer="Cardinal" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+					</li>
+					<li class="viz-question">
+						<p class="viz-question-number">06</p>
+						<hr class="viz-logo-connector">
+						<img class="viz-down-arrow" src="img/down_arrow.png" LOCAL>
+						<div class="viz-comparison viz-comparison-1">
+							<div class="viz-img-wrap viz-arrow-comp-6">
+								<div class="viz-logo viz-comp-6"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Marriott" placeholder="Letters: 8" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison viz-comparison-2">
+							<div class="viz-img-wrap viz-arrow-comp-6">
+								<div class="viz-logo viz-comp-6"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Volkswagen" placeholder="Letters: 10" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison-answer-wrap">
+							<p class="viz-answer-clue">Partnership Offering Tax Benefits</p>
+							<p class="viz-answer viz-comparison-answer" data-takeaway="4"><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter viz-takeaway-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span></p>
+							<form class="viz-form viz-final-form">
+								<input class="viz-input" name="viz-guess" data-answer="Marriage" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+					</li>
+					<li class="viz-question">
+						<p class="viz-question-number">07</p>
+						<hr class="viz-logo-connector">
+						<img class="viz-down-arrow" src="img/down_arrow.png" LOCAL>
+						<div class="viz-comparison viz-comparison-1">
+							<div class="viz-img-wrap viz-arrow-comp-7">
+								<div class="viz-logo viz-comp-7"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Infiniti" placeholder="Letters: 8" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison viz-comparison-2">
+							<div class="viz-img-wrap viz-arrow-comp-7">
+								<div class="viz-logo viz-comp-7"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Allstate" placeholder="Letters: 8" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison-answer-wrap">
+							<p class="viz-answer-clue">Get Started</p>
+							<p class="viz-answer viz-comparison-answer" data-takeaway="3"><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter viz-takeaway-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span></p>
+							<form class="viz-form viz-final-form">
+								<input class="viz-input" name="viz-guess" data-answer="Initiate" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+					</li>
+					<li class="viz-question">
+						<p class="viz-question-number">08</p>
+						<hr class="viz-logo-connector">
+						<img class="viz-down-arrow" src="img/down_arrow.png" LOCAL>
+						<div class="viz-comparison viz-comparison-1">
+							<div class="viz-img-wrap viz-arrow-comp-8">
+								<div class="viz-logo viz-comp-8"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Quiznos" placeholder="Letters: 7" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison viz-comparison-2">
+							<div class="viz-img-wrap viz-arrow-comp-8">
+								<div class="viz-logo viz-comp-8"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Chevron" placeholder="Letters: 7" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison-answer-wrap">
+							<p class="viz-answer-clue">Type of Pie</p>
+							<p class="viz-answer viz-comparison-answer" data-takeaway="5"><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter viz-takeaway-letter">&nbsp;</span></p>
+							<form class="viz-form viz-final-form">
+								<input class="viz-input" name="viz-guess" data-answer="Quiche" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+					</li>
+					<li class="viz-question">
+						<p class="viz-question-number">09</p>
+						<hr class="viz-logo-connector">
+						<img class="viz-down-arrow" src="img/down_arrow.png" LOCAL>
+						<div class="viz-comparison viz-comparison-1">
+							<div class="viz-img-wrap viz-arrow-comp-9">
+								<div class="viz-logo viz-comp-9"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Sprint" placeholder="Letters: 6" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison viz-comparison-2">
+							<div class="viz-img-wrap viz-arrow-comp-9">
+								<div class="viz-logo viz-comp-9"></div>
+							</div>
+							<form class="viz-form viz-comp-form">
+								<input class="viz-input" name="viz-guess" data-answer="Prudential" placeholder="Letters: 10" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+						<div class="viz-comparison-answer-wrap">
+							<p class="viz-answer-clue">Barge In</p>
+							<p class="viz-answer viz-comparison-answer" data-takeaway="3"><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter viz-takeaway-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span><span class="viz-letter">&nbsp;</span></p>
+							<form class="viz-form viz-final-form">
+								<input class="viz-input" name="viz-guess" data-answer="Intrude" required>
+								<button type="submit" class="viz-submit"><i class="fa fa-arrow-right"></i></button>
+								<div class='viz-popup'>
+									<p class='viz-popup-text'>Try again!</p>
+								</div>
+							</form>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</article>
+
+</body>
+
+</html>

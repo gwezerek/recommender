@@ -1,0 +1,1020 @@
+/* line 757, ../sass/partials/_mixins.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-family: "FCKaiserCond";
+  src: url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-medium-webfont.eot");
+  src: url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-medium-webfont.eot?#iefix") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-medium-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-medium-webfont.ttf") format("truetype"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-medium-webfont.svg#FCKaiserCond") format("svg");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCKaiserCond";
+  src: url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-regular-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-regular-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-regular-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-regular-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCKaiserCond";
+  src: url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-extralight-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-extralight-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-extralight-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_cond-extralight-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCKaiserXCond";
+  src: url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_xcond-extralight-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_xcond-extralight-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_xcond-extralight-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_xcond-extralight-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCKaiserXCond";
+  src: url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_xcond-regular-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_xcond-regular-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_xcond-regular-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser_xcond-regular-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCZizouSans";
+  src: url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-regular-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-regular-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-regular-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-regular-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCZizouSans";
+  src: url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-medium-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-medium-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-medium-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-medium-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCZizouSans";
+  src: url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-bold-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-bold-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-bold-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_sans-bold-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCZizouSlab";
+  src: url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-thin-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-thin-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-thin-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-thin-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCZizouSlab";
+  src: url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-light-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-light-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-light-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-light-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCZizouSlab";
+  src: url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-regular-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-regular-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-regular-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-regular-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCZizouSlab";
+  src: url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-medium-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-medium-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-medium-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-medium-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCZizouSlab";
+  src: url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-bold-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-bold-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-bold-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-bold-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCZizouSlab";
+  src: url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-black-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-black-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-black-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fczizou/fczizou_slab-black-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCKaiser";
+  src: url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser-regular-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser-regular-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser-regular-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser-regular-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "FCKaiser";
+  src: url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser-medium-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser-medium-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser-medium-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/fckaiser/fckaiser-medium-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "MuseoSans";
+  src: url("http://www.fastcodesign.com/fonts/museosans/museosans-100-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/museosans/museosans-100-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/museosans/museosans-100-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/museosans/museosans-100-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "MuseoSans";
+  src: url("http://www.fastcodesign.com/fonts/museosans/museosans-300-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/museosans/museosans-300-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/museosans/museosans-300-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/museosans/museosans-300-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "MuseoSans";
+  src: url("http://www.fastcodesign.com/fonts/museosans/museosans-500-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/museosans/museosans-500-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/museosans/museosans-500-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/museosans/museosans-500-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "MuseoSans";
+  src: url("http://www.fastcodesign.com/fonts/museosans/museosans-700-webfont.eot?") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/museosans/museosans-700-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/museosans/museosans-700-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/museosans/museosans-700-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "Grumpy-Black36";
+  src: url("http://www.fastcodesign.com/fonts/grumpy/grumpy-black36-webfont.eot?#iefix") format("embedded-opentype"), url("http://www.fastcodesign.com/fonts/grumpy/grumpy-black36-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/grumpy/grumpy-black36-webfont.svg") format("svg"), url("http://www.fastcodesign.com/fonts/grumpy/grumpy-black36-webfont.ttf") format("opentype");
+}
+
+@font-face {
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  font-family: "CaslonFS";
+  src: url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-bold-webfont.eot?#iefix") format("eot"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-bold-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-bold-webfont.ttf") format("truetype"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-bold-webfont.svg#webfontKSc4AWhd") format("svg");
+}
+
+@font-face {
+  font-weight: 600;
+  font-style: italic;
+  font-family: "CaslonFS";
+  src: url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-bold_italic-webfont.eot?#iefix") format("eot"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-bold_italic-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-bold_italic-webfont.ttf") format("truetype"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-bold_italic-webfont.svg#webfontqJplC6D8") format("svg");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "CaslonFS";
+  src: url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-book-webfont.eot?#iefix") format("eot"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-book-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-book-webfont.ttf") format("truetype"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-book-webfont.svg#webfontla9WkFWh") format("svg");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: italic;
+  font-family: "CaslonFS";
+  src: url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-book_italic-webfont.eot?#iefix") format("eot"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-book_italic-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-book_italic-webfont.ttf") format("truetype"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-book_italic-webfont.svg#webfont2p2hqYg5") format("svg");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-family: "CaslonFS";
+  src: url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-medium-webfont.eot?#iefix") format("eot"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-medium-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-medium-webfont.ttf") format("truetype"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-medium-webfont.svg#webfontsq83qGc8") format("svg");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: italic;
+  font-family: "CaslonFS";
+  src: url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-medium_italic-webfont.eot?#iefix") format("eot"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-medium_italic-webfont.woff") format("woff"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-medium_italic-webfont.ttf") format("truetype"), url("http://www.fastcodesign.com/fonts/caslonfs/caslonfs-medium_italic-webfont.svg#webfontydPYhPC6") format("svg");
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebThin.eot?") format("embedded-opentype"), url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebThin.woff") format("woff");
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebLight.eot?") format("embedded-opentype"), url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebLight.woff") format("woff");
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebRegular.eot?") format("embedded-opentype"), url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebRegular.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebMedium.eot?") format("embedded-opentype"), url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebMedium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebBold.eot?") format("embedded-opentype"), url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebBlack.eot?") format("embedded-opentype"), url("http://www.fastcolabs.com/fonts/colfax-licensed/ColfaxWebBlack.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+/* !============================================= */
+/* ! Variables						  			  */
+/* !============================================= */
+/* !-- Universal ------------------------------------ */
+/* !-- Project ------------------------------------ */
+/* !-- Project ------------------------------------ */
+/* !-- Paths ------------------------------------ */
+/* line 7, ../sass/partials/_base.scss */
+.viz-article {
+  overflow: hidden;
+  margin: 0 auto;
+  height: 100%;
+  color: #33312e;
+  font-size: 15px;
+  font-family: "MuseoSans", Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 17, ../sass/partials/_base.scss */
+.viz-container {
+  position: relative;
+}
+
+/* line 21, ../sass/partials/_base.scss */
+.viz-detail {
+  color: #99948a;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 80%;
+}
+
+/* line 30, ../sass/partials/_base.scss */
+.viz-overline {
+  margin: 0 0 5px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ccc6b9;
+  color: #99948a;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+/* line 39, ../sass/partials/_base.scss */
+.viz-title {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0;
+  font-weight: 600;
+  font-size: 42px;
+  font-family: "FCZizouSlab", Georgia, Times, Times New Roman, serif;
+  line-height: 90%;
+}
+@media (min-width: 500px) {
+  /* line 39, ../sass/partials/_base.scss */
+  .viz-title {
+    font-size: 42px;
+  }
+}
+
+/* line 51, ../sass/partials/_base.scss */
+.viz-underline {
+  margin-top: 0;
+  color: #33312e;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+/* line 58, ../sass/partials/_base.scss */
+.viz-byline {
+  letter-spacing: .5px;
+  line-height: 90%;
+}
+
+/* line 63, ../sass/partials/_base.scss */
+.viz-content-block {
+  *zoom: 1;
+  margin: 0 0 40px;
+}
+/* line 38, ../../../../.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.viz-content-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 68, ../sass/partials/_base.scss */
+.viz-content-header {
+  margin: 0 0 30px;
+}
+
+/* line 72, ../sass/partials/_base.scss */
+.viz-overline-wrapper {
+  position: relative;
+  margin: 0 0 5px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #33312e;
+}
+
+/* line 79, ../sass/partials/_base.scss */
+.viz-subhed {
+  margin: 0 0 10px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ccc6b9;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+/* line 87, ../sass/partials/_base.scss */
+.viz-subhed-select {
+  padding-bottom: 7px;
+}
+
+/* line 91, ../sass/partials/_base.scss */
+.viz-header-wrapper {
+  *zoom: 1;
+  position: relative;
+}
+/* line 38, ../../../../.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.viz-header-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 96, ../sass/partials/_base.scss */
+.viz-footer {
+  padding-top: 10px;
+  border-top: 7px solid #33312e;
+}
+
+/* line 101, ../sass/partials/_base.scss */
+.viz-source {
+  margin: 0;
+  font-size: 12px;
+}
+
+/* line 110, ../sass/partials/_base.scss */
+.viz-quiz-container {
+  font-size: 24px;
+}
+
+/* line 114, ../sass/partials/_base.scss */
+.viz-questions {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 119, ../sass/partials/_base.scss */
+.viz-question {
+  position: relative;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #33312e;
+  list-style-type: none;
+}
+
+/* line 127, ../sass/partials/_base.scss */
+.viz-question-number {
+  position: absolute;
+  left: 50%;
+  margin: 7px 0 0 -11px;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-family: "FCKaiserXCond", Helvetica, Arial, sans-serif;
+  line-height: 65%;
+}
+@media (min-width: 540px) {
+  /* line 127, ../sass/partials/_base.scss */
+  .viz-question-number {
+    left: auto;
+    margin: 0;
+    letter-spacing: 3px;
+    font-size: 90px;
+  }
+}
+
+/* line 143, ../sass/partials/_base.scss */
+.viz-img-wrap {
+  position: relative;
+}
+
+/* line 147, ../sass/partials/_base.scss */
+.viz-img-wrap:after {
+  position: absolute;
+  top: 95px;
+  left: 50%;
+  margin-left: -12px;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  border-width: 12px;
+  border-top-color: red;
+  content: " ";
+  pointer-events: none;
+}
+
+/* line 161, ../sass/partials/_base.scss */
+.viz-logo {
+  margin: 0 auto 25px;
+  width: 105px;
+  height: 95px;
+  background-image: url("../img/icons_sheet.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+/* line 171, ../sass/partials/_base.scss */
+.viz-logo-connector {
+  position: absolute;
+  top: 75px;
+  left: 25%;
+  z-index: 0;
+  margin: 0;
+  width: 50%;
+  height: 3px;
+  background-color: #33312e;
+}
+
+/* line 182, ../sass/partials/_base.scss */
+.viz-down-arrow {
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+/* line 189, ../sass/partials/_base.scss */
+.viz-logo-name {
+  display: none;
+  margin: 25px -5px 0 0;
+}
+
+/* line 194, ../sass/partials/_base.scss */
+.viz-comparison {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 55px;
+  width: 48%;
+  background-position: -210px;
+  text-align: center;
+}
+
+/* line 203, ../sass/partials/_base.scss */
+.viz-comparison-1 {
+  float: left;
+  background-position: -210px;
+}
+
+/* line 208, ../sass/partials/_base.scss */
+.viz-comparison-2 {
+  float: right;
+  background-position: -210px;
+}
+
+/* line 213, ../sass/partials/_base.scss */
+.viz-letter {
+  display: inline-block;
+  margin: 0 3px;
+  margin-bottom: -5px;
+  width: 20px;
+  height: 33px;
+  background-image: url("../img/lodash.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  line-height: 130%;
+}
+
+/* line 225, ../sass/partials/_base.scss */
+.viz-takeaway-letter {
+  background-image: url("../img/lodash_takeaway.png");
+  text-align: center;
+}
+
+/* line 230, ../sass/partials/_base.scss */
+.viz-top-takeaway {
+  width: 27px;
+  height: 45px;
+  padding-top: 4px;
+  background-size: 27px;
+  font-weight: 500;
+  margin: 0 2px 19px 0;
+}
+
+/* line 239, ../sass/partials/_base.scss */
+.viz-comparison-answer-wrap {
+  margin: 0 auto 10px;
+  text-align: center;
+}
+
+/* line 244, ../sass/partials/_base.scss */
+.viz-comparison-answer {
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+/* line 249, ../sass/partials/_base.scss */
+.viz-comparison-answer-filled {
+  margin: 10px 0 10px;
+  color: #99948a;
+  letter-spacing: 14px;
+  font-size: 16px;
+}
+
+/* line 256, ../sass/partials/_base.scss */
+.viz-answer-clue {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "FCKaiserCond", Helvetica, Arial, sans-serif;
+  line-height: 80%;
+}
+
+/* line 269, ../sass/partials/_base.scss */
+.viz-form {
+  position: relative;
+}
+
+/* line 273, ../sass/partials/_base.scss */
+.viz-form-answered {
+  pointer-events: none;
+}
+
+/* line 277, ../sass/partials/_base.scss */
+.viz-final-form {
+  display: none;
+  letter-spacing: 0;
+}
+
+/* line 282, ../sass/partials/_base.scss */
+.viz-input {
+  border: 0;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 0;
+  padding: 5px;
+  width: 81px;
+  height: 29px;
+  border: 1px solid #99948a;
+  background-color: white;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "MuseoSans", Helvetica, Arial, sans-serif;
+}
+/* line 301, ../sass/partials/_mixins.scss */
+.viz-input:focus {
+  outline: 0;
+}
+@media (min-width: 500px) {
+  /* line 282, ../sass/partials/_base.scss */
+  .viz-input {
+    width: 130px;
+  }
+}
+
+/* line 300, ../sass/partials/_base.scss */
+.viz-submit {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  border: 0;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 1;
+  margin-left: -10px;
+  padding: 0;
+  width: 30px;
+  height: 29px;
+  background-color: #33312e;
+  color: white;
+  vertical-align: middle;
+  cursor: pointer;
+}
+/* line 301, ../sass/partials/_mixins.scss */
+.viz-submit:focus {
+  outline: 0;
+}
+
+/* line 315, ../sass/partials/_base.scss */
+.viz-correct {
+  background-color: #4cc0ad;
+}
+
+/* line 319, ../sass/partials/_base.scss */
+.viz-incorrect {
+  background-color: #ed1c24;
+}
+
+/* line 323, ../sass/partials/_base.scss */
+.viz-popup {
+  -webkit-transition: 0.3s opacity ease-in-out, 0.3s top ease-in-out;
+  -moz-transition: 0.3s opacity ease-in-out, 0.3s top ease-in-out;
+  -o-transition: 0.3s opacity ease-in-out, 0.3s top ease-in-out;
+  transition: 0.3s opacity ease-in-out, 0.3s top ease-in-out;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  margin-left: -37.5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc6b9;
+  text-transform: uppercase;
+  font-size: 10px;
+  opacity: 0;
+}
+
+/* line 337, ../sass/partials/_base.scss */
+.viz-popup-visible {
+  top: 36px;
+  opacity: 1;
+}
+
+/* line 342, ../sass/partials/_base.scss */
+.viz-popup-text {
+  margin: 0;
+  color: #33312e;
+}
+
+/* line 347, ../sass/partials/_base.scss */
+.viz-popup:after, .viz-popup:before {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  content: " ";
+  pointer-events: none;
+}
+
+/* line 358, ../sass/partials/_base.scss */
+.viz-popup:after {
+  margin-left: -4px;
+  border-width: 4px;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #ffffff;
+}
+
+/* line 364, ../sass/partials/_base.scss */
+.viz-popup:before {
+  margin-left: -5px;
+  border-width: 5px;
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom-color: #ccc6b9;
+}
+
+/* line 377, ../sass/partials/_base.scss */
+.viz-recommender-title {
+  margin: 0 0 20px;
+  padding: 0 0 5px;
+  border-bottom: 1px solid #33312e;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  font-size: 22px;
+  font-family: "FCKaiserCond", Helvetica, Arial, sans-serif;
+}
+
+/* line 388, ../sass/partials/_base.scss */
+.viz-final-answer-wrap {
+  *zoom: 1;
+  position: relative;
+}
+/* line 38, ../../../../.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.viz-final-answer-wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 394, ../sass/partials/_base.scss */
+.viz-headshot-wrap {
+  display: table;
+  margin: 0 0 15px;
+}
+@media (min-width: 500px) {
+  /* line 394, ../sass/partials/_base.scss */
+  .viz-headshot-wrap {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 402, ../sass/partials/_base.scss */
+.viz-headshot {
+  float: left;
+  margin-right: 20px;
+  width: 100px;
+}
+@media (min-width: 500px) {
+  /* line 402, ../sass/partials/_base.scss */
+  .viz-headshot {
+    width: 65px;
+  }
+}
+
+/* line 411, ../sass/partials/_base.scss */
+.viz-pullquote {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 13px;
+}
+@media (min-width: 400px) {
+  /* line 411, ../sass/partials/_base.scss */
+  .viz-pullquote {
+    font-size: 16px;
+  }
+}
+
+/* line 421, ../sass/partials/_base.scss */
+.viz-answer {
+  margin-bottom: 5px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+/* line 429, ../sass/partials/_base.scss */
+.viz-final-answer {
+  margin: 0 0 3px;
+  text-align: center;
+}
+@media (min-width: 500px) {
+  /* line 429, ../sass/partials/_base.scss */
+  .viz-final-answer {
+    margin: 0 0 3px 85px;
+    text-align: left;
+  }
+}
+
+/* line 450, ../sass/partials/_base.scss */
+.viz-giveup {
+  margin-bottom: 20px;
+  text-align: center;
+}
+@media (min-width: 500px) {
+  /* line 450, ../sass/partials/_base.scss */
+  .viz-giveup {
+    position: absolute;
+    bottom: 20px;
+    left: 8px;
+    margin-bottom: 0px;
+    width: 47px;
+  }
+}
+
+/* line 462, ../sass/partials/_base.scss */
+.viz-giveup-button {
+  margin: 0 0 5px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #99948a;
+}
+/* line 469, ../sass/partials/_base.scss */
+.viz-giveup-button:hover {
+  background-color: #33312e;
+}
+
+/* line 474, ../sass/partials/_base.scss */
+.viz-giveup-text {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* line 485, ../sass/partials/_base.scss */
+.viz-takeaway-1 {
+  background-image: url("../img/justbox_1.png");
+}
+
+/* line 488, ../sass/partials/_base.scss */
+.viz-takeaway-2 {
+  background-image: url("../img/justbox_2.png");
+}
+
+/* line 491, ../sass/partials/_base.scss */
+.viz-takeaway-3 {
+  background-image: url("../img/justbox_3.png");
+}
+
+/* line 494, ../sass/partials/_base.scss */
+.viz-takeaway-4 {
+  background-image: url("../img/justbox_4.png");
+}
+
+/* line 497, ../sass/partials/_base.scss */
+.viz-takeaway-5 {
+  background-image: url("../img/justbox_5.png");
+}
+
+/* line 500, ../sass/partials/_base.scss */
+.viz-takeaway-6 {
+  background-image: url("../img/justbox_6.png");
+}
+
+/* line 503, ../sass/partials/_base.scss */
+.viz-takeaway-7 {
+  background-image: url("../img/justbox_7.png");
+}
+
+/* line 506, ../sass/partials/_base.scss */
+.viz-takeaway-8 {
+  background-image: url("../img/justbox_8.png");
+}
+
+/* line 509, ../sass/partials/_base.scss */
+.viz-takeaway-9 {
+  background-image: url("../img/justbox_9.png");
+}
+
+/* line 517, ../sass/partials/_base.scss */
+.viz-comp-1 {
+  background-color: #e7bb20;
+}
+
+/* line 521, ../sass/partials/_base.scss */
+.viz-comp-2 {
+  background-color: #4cc0ad;
+}
+
+/* line 525, ../sass/partials/_base.scss */
+.viz-comp-3 {
+  background-color: #a25b98;
+}
+
+/* line 529, ../sass/partials/_base.scss */
+.viz-comp-4 {
+  background-color: #118acb;
+}
+
+/* line 533, ../sass/partials/_base.scss */
+.viz-comp-5 {
+  background-color: #a19782;
+}
+
+/* line 537, ../sass/partials/_base.scss */
+.viz-comp-6 {
+  background-color: #56c5d0;
+}
+
+/* line 541, ../sass/partials/_base.scss */
+.viz-comp-7 {
+  background-color: #f58220;
+}
+
+/* line 545, ../sass/partials/_base.scss */
+.viz-comp-8 {
+  background-color: #b2d299;
+}
+
+/* line 549, ../sass/partials/_base.scss */
+.viz-comp-9 {
+  background-color: #e55a78;
+}
+
+/* line 553, ../sass/partials/_base.scss */
+.viz-arrow-comp-1:after {
+  border-top-color: #e7bb20;
+}
+
+/* line 557, ../sass/partials/_base.scss */
+.viz-arrow-comp-2:after {
+  border-top-color: #4cc0ad;
+}
+
+/* line 561, ../sass/partials/_base.scss */
+.viz-arrow-comp-3:after {
+  border-top-color: #a25b98;
+}
+
+/* line 565, ../sass/partials/_base.scss */
+.viz-arrow-comp-4:after {
+  border-top-color: #118acb;
+}
+
+/* line 569, ../sass/partials/_base.scss */
+.viz-arrow-comp-5:after {
+  border-top-color: #a19782;
+}
+
+/* line 573, ../sass/partials/_base.scss */
+.viz-arrow-comp-6:after {
+  border-top-color: #56c5d0;
+}
+
+/* line 577, ../sass/partials/_base.scss */
+.viz-arrow-comp-7:after {
+  border-top-color: #f58220;
+}
+
+/* line 581, ../sass/partials/_base.scss */
+.viz-arrow-comp-8:after {
+  border-top-color: #b2d299;
+}
+
+/* line 585, ../sass/partials/_base.scss */
+.viz-arrow-comp-9:after {
+  border-top-color: #e55a78;
+}
+
+/* line 32, ../sass/widget.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 40, ../sass/widget.scss */
+.prose.body * {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* line 84, ../sass/widget.scss */
+.viz-final-answer-wrap {
+  padding-top: 0;
+}
